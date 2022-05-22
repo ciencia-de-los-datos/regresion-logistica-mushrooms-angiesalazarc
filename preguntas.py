@@ -99,8 +99,8 @@ def pregunta_02():
     (X_train, X_test, y_train, y_test,) = train_test_split(
         X,
         y,
-        test_size=123,
-        random_state=50,
+        test_size=50,
+        random_state=123,
     )
 
     # Retorne `X_train`, `X_test`, `y_train` y `y_test`
